@@ -1,0 +1,7 @@
+//Substr() - It takes two arguments,the starting index and number of characters to slice.
+
+let alphabets='abcdefgh'
+console.log(alphabets.substr(2,6))
+
+let fname='Selvamani'
+console.log(fname.substr(5,4))

@@ -1,7 +1,0 @@
-//Substr() - It takes two arguments,the starting index and number of characters to slice.
-
-let x='abcdefgh'
-console.log(x.substr(2,6))
-
-let name='Selvamani'
-console.log(name.substr(5,4))
