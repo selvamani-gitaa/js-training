@@ -82,17 +82,63 @@ if(newsame.length==0){
 }
 
 // Using the above countries array, find the country containing the biggest number of characters.
-// let longestCountry = "";
+let longestcountry = "";
 
-// for (let i = 0; i < countries.length; i++) {
-//   if (countries[i].length > longestCountry.length) {
-//     longestCountry = countries[i];
-//   }
-// }
-// console.log(longestCountry);
+for (let i = 0; i < countries.length; i++) {
+  if (countries[i].length > longestcountry.length) {
+    longestcountry = countries[i];
+  }
+}
+console.log(longestcountry);
 
-for(i of countries){
-    for(j of countries){
-        console.log(i+j)
+// Using the above countries array, find the country containing only 5 characters.
+
+for (let i = 0; i < countries.length; i++) {
+    if (countries[i].length == 5) {
+      console.log(countries[i]);
+    }
+  }
+
+// Use the webTechs array to create the following array of arrays:
+const webTechs = require('/home/gitaa/JS/js-training/Day-3/Array/Exercise/web_techs');
+let web=[]
+for(i of webTechs){
+    web.push([i,i.length])
+}
+console.log(web)
+
+// An application created using MongoDB, Express, React and Node is called a MERN stack app. Create the acronym MERN by using the array mernStack
+let mernStack=['MongoDB','Express','React','Node']
+let acronym=''
+for(i of mernStack){
+    acronym+=i[0]
+}
+console.log(acronym)
+
+// Iterate through the array, ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"] using a for loop or for of loop and print out the items.
+Frontend= ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]
+for(i of Frontend){
+    console.log(i)
+}
+
+// This is a fruit array , ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop without using a reverse method.
+let fruits=['banana', 'orange', 'mango', 'lemon']
+console.log(fruits)
+let reversed_fruits=[]
+for(i=fruits.length;i>0;i--){
+    reversed_fruits.push( fruits[i-1])
+}
+console.log(reversed_fruits)
+
+// Print all the elements of array as shown below.
+const fullStack = [
+    ['HTML', 'CSS', 'JS', 'React'],
+    ['Node', 'Express', 'MongoDB']
+  ]
+for (i of fullStack){
+    for (j=0;j<i.length;j++){
+        console.log(i[j])
     }
 }
+
+module.exports=mernStack
