@@ -50,3 +50,65 @@ const users = {
     }
   }
   console.log(users)
+
+
+
+// Find the person who has many skills in the users object.
+
+
+let maxSkills = 0;
+let skillfulPerson = ''
+
+for (const person in users) {
+  const numSkills = users[person].skills.length
+  
+  if (numSkills > maxSkills) {
+    maxSkills = numSkills
+    skillfulPerson = person
+  }
+}
+
+console.log(skillfulPerson)
+
+// Count logged in users, count users having greater than equal to 50 points from the following object.
+let loged=0
+let points=0
+
+for(count in users){
+  if(users[count].isLoggedIn==true){
+    loged+=1
+  }
+}
+console.log(loged)
+for(count in users){
+  if(users[count].points>=50){
+    points+=1
+  }
+}
+console.log(points)
+
+// Find people who are MERN stack developer from the users object
+for(count in users){
+  let a=users[count].skills
+  if(a.includes('MongoDB','Express','React','Node')==true){
+    console.log(count,"Was MERN dev")
+  }
+
+}
+
+// Set your name in the users object without modifying the original users object
+const dog={
+  name: "Happy", 
+  legs: "four",
+  color: "golden",
+  age: 2,
+  bark: function(){
+     return "woof woof"
+  },
+  breed: 'Labrador',
+  getDogInfo: function(){
+      return` Name: ${this.name}, Breed: ${this.breed}, Legs: ${this.legs}, Color: ${this.color}, Age: ${this.age}`
+  }
+
+ }
+console.log(dog)
