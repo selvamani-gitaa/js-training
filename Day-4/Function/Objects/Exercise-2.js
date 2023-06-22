@@ -96,19 +96,8 @@ for(count in users){
 
 }
 
-// Set your name in the users object without modifying the original users object
-const dog={
-  name: "Happy", 
-  legs: "four",
-  color: "golden",
-  age: 2,
-  bark: function(){
-     return "woof woof"
-  },
-  breed: 'Labrador',
-  getDogInfo: function(){
-      return` Name: ${this.name}, Breed: ${this.breed}, Legs: ${this.legs}, Color: ${this.color}, Age: ${this.age}`
-  }
-
- }
-console.log(dog)
+// Get all keys or properties of users object
+for(count in users){
+  let a=Object.keys(users[count])
+  console.log(a)
+}
