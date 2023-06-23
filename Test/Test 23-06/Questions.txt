@@ -1,0 +1,23 @@
+
+What is an object in JavaScript?
+    object is an collection of value 
+
+How do you create an object in JavaScript?
+    object name ={
+        key : value,
+
+    }
+
+How do you access a property of an object in JavaScript
+    we can access a property by object dot property name
+
+How do you add a new property to an object in JavaScript
+
+
+How do you remove a property from an object in JavaScript
+
+
+What is the difference between var, let and const
+    var is an variable it can used in pariticular section of block and it can reassign to other value
+    let is an variable it can be access everywhere in code and it can reassign to other value
+    const is an constant it cant be reassign to other value
