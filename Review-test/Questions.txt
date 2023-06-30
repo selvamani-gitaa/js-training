@@ -1,0 +1,24 @@
+What is JavaScript?
+    JavaScript is an scripting tool which is used to create webpages interactive
+
+What is a variable in JavaScript?
+    variable is alphabets or words wich we are used to stored the values.
+
+What are the data types in JavaScript?
+    Two Types of Datatype:
+    Primitive Datatype:
+    Number,String,Boolean,Null
+    Non Primitive Datatypes:
+    Objects
+
+What is the difference between "null" and "undefined" in JavaScript?
+    Null is an empty value if we declared variable and doesnt assiging value it will take as null,
+undefined was an 
+
+What are the control flow statements in JavaScript?
+    Looping and conditional statements are the control flow statements
+
+What are the differences between 'let', 'const', and 'var' in JavaScript?
+    var is an variable it can used in pariticular section of block and it can reassign to other value
+    let is an variable it can be access everywhere in code and it can reassign to other value
+    const is an constant it cant be reassign to other value
