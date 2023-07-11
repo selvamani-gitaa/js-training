@@ -7,8 +7,8 @@
 // Explanation: 1 + 2 + 3 + 4 = 10.
 // Example 2:
 // Input:
-n = 3
-arr = [1, 3, 3]
+// n = 3
+// arr = [1, 3, 3]
 // Output: 7
 // Explanation: 1 + 3 + 3 = 7.
 // Your Task:
