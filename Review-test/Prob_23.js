@@ -3,6 +3,6 @@
 // Input: [10, 5, 8, 3, 1]
 // Output: [1, 3, 5, 8, 10]
 function ascending(arr){
-    return arr.reverse().sort()
+    return arr.sort()
 }
 console.log(ascending([10, 5, 8, 3, 1]))

@@ -4,7 +4,7 @@
 // Output: { "h": 1, "e": 1, "l": 2, "o": 1 }
 
 function count(str){
-    let c = Map(str)
+    let c = Map()
     return c
 }
 console.log(count('Hello'))

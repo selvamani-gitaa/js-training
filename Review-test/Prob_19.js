@@ -9,8 +9,8 @@ function reverses(arr){
     for (i=0;i<=arr.length;i++){
         sum=arr[i]
         console.log(sum);
-        // rever=sum.reverse()
-        // c.push(rever)
+        rever=sum.reverse()
+        c.push(rever)
 
     }
     return c

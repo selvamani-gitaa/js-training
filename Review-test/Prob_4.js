@@ -3,10 +3,9 @@
 // Output: 42
 
 function stringToNumber(string) {
-    const number1 = parseInt(string)
+    const number1 = parseFloat(string)
     return number1
   }
   
 console.log(stringToNumber("42"));
 
-  

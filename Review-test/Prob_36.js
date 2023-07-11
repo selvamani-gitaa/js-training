@@ -20,7 +20,7 @@
 
 function convertArrayToObject(arr){
     for(i of arr){
-        console.log(i);
+        
     }
 
 }
