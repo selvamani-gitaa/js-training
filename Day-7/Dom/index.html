@@ -1,0 +1,58 @@
+<!-- 
+  <html >
+    <head>
+      <title>Document Object Model</title>
+    </head>
+    <body>
+
+     <p class='title' id='first-title'>First Title</p>
+     <p class='title' id='second-title'>Second Title</p>
+     <p class='title' id='third-title'>Third Title</p>
+
+    </body>
+
+    <script>const allTitles = document.getElementsByTagName('p')
+
+        console.log(allTitles) 
+        console.log("Hi da") 
+        console.log(allTitles.length) 
+        
+        for (let i = 0; i < allTitles.length; i++) {
+          console.log(allTitles[i]) 
+        }</script></html>
+  </html> -->
+
+  <!-- Get each of the the paragraph using document.querySelector('#id') and by their id -->
+  <html >
+    <head>
+      <title>Document Object Model</title>
+      
+    </head>
+    <body>
+
+      <p class='title' id='first-title'>Hi da</p>
+      <p class='title' id='second-title'>Bye Da</p>
+      <p class='title' id='third-title'>OK Da</p><p class='title' id='first-title'>Hi da</p>
+      <p class='title' id='second-title'>Bye Da</p>
+      <p class='title' id='third-title'>OK Da</p><p class='title' id='first-title'>Hi da</p>
+      <p class='title' id='second-title'>Bye Da</p>
+      <p class='title' id='third-title'>OK Da</p><p class='title' id='first-title'>Hi da</p>
+      <p class='title' id='second-title'>Bye Da</p>
+      <p class='title' id='third-title'>OK Da</p>
+
+    
+
+    <script>var allTitles = document.querySelectorAll('.title') 
+        // console.log(allTitles)
+        
+        for (let i = 0; i < allTitles.length; i++) {
+          console.log(allTitles[i].innerHTML) 
+          if(i%2==0){
+            
+            allTitles[i].style.color='red'
+            console.log(allTitles[i])
+          }
+
+        }</script></body>
+
+        </html>
